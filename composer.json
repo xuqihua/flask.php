@@ -1,0 +1,40 @@
+{
+  "name": "xuqihua/flask",
+  "description": "The Flask PHP Framework.",
+  "keywords": [
+    "flask",
+    "framework"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xuqihua/flask.php",
+  "support": {
+    "issues": "https://github.com/xuqihua/flask.php/issues",
+    "source": "https://github.com/xuqihua/flask.php"
+  },
+  "authors": [
+    {
+      "name": "Xu Qihua",
+      "email": "qihuaxu@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7"
+  },
+  "autoload": {
+    "files": [
+      "src/Illuminate/Foundation/helpers.php",
+      "src/Illuminate/Support/helpers.php"
+    ],
+    "psr-4": {
+      "Flask\\": "src/Flask/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
